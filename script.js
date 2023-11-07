@@ -13,8 +13,10 @@ const srchBtn = document.querySelector('#srch')
 
 function todayFormat() {
   const now = new Date();
-  now.setUTCHours(0, 0, 0, 0);
-  return now.toISOString().slice(0, 10);
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
 }
 
 // to get a randome date
