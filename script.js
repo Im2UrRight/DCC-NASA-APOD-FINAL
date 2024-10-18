@@ -4,7 +4,7 @@
 
 //date must be in YYYY-MM-DD format, Must be after 1995-06-16
 //test date 11/23/2010
-const api_key = 'L6f1Y4xOae6pw2Fj3zNg9PwEt3E6F1WD72FYC4cU'
+const api_key = 'L6f1Y4xOae6pw2Fj3zNg9PwEt3E6F1WD72FYC4cU' //Yes I know put this in an .env file but this was for a school project and can't really be used maliciously. just gonna leac\ve it here 
 const apodContainer = document.querySelector('.apod')
 const dateInput = document.querySelector('#date')
 const apodContainer = document.querySelector('.apod')
